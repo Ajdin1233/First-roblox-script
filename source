@@ -17,7 +17,7 @@ end)
 
 MainSection:NewButton("Easy Obby End", "It teleports you to the End of the Easy Obby.", function()
     local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local location = CFrame.new(160, 3, 328)
+    local location = CFrame.new(-185, 3, 328)
     local humanoid = game.Players.LocalPlayer.Character.Humanoid
     humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
     wait(0.1)
